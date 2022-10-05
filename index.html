@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Média</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Média</h1>
+
+        <form action="media.php" method="post">
+
+            <label for="tPrimeiraN">
+                Primeira Nota:
+            </label>
+            <br>
+            <input type="text" name="txtNota1" id="tPrimeiraN" size="20" maxlength="2" placeholder="Primeira Nota" required>
+            <br><br>
+
+            <label for="tSegundaN">
+                Segunda Nota: 
+            </label>
+            <br>
+            <input type="text" name="txtNota2" id="tSegundaN" size="20" maxlength="2" placeholder="Segunda Nota" required>
+            <br><br>
+
+            <label for="tTerceiraN">
+                Terceira Nota: 
+            </label>
+            <br>
+            <input type="text" name="txtNota3" id="tTerceiraN" size="20" maxlength="2" placeholder="Terceira Nota" required>
+            <br><br>
+
+            <input type="submit" value="Calcular" id="botao">
+        </form>           
+    </div>
+</body>
+</html>
