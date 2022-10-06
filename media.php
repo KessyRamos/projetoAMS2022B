@@ -61,6 +61,7 @@
             <br>
             <input type="text" name="txtSituacao" id="tSituacao" size="20" maxlength="20" readonly value="<?php echo $situacao?>">
             <br><br>
+            //Maju
         </form>           
     </div>
 </body>
